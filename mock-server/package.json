@@ -1,0 +1,25 @@
+{
+  "name": "training-log-mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "micro-dev -w ./src/**/* src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "now --target staging"
+  },
+  "author": "Hiroshi Oyamada",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.9.14",
+    "apollo-server-express": "^2.9.14",
+    "apollo-server-micro": "^2.4.8",
+    "graphql": "^14.1.1",
+    "micro": "^9.3.4",
+    "micro-cors": "^0.1.1"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0",
+    "now": "^16.7.0"
+  }
+}

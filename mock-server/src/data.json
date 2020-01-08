@@ -1,0 +1,43 @@
+{
+  "users": [{
+      "id": 1,
+      "givenName": "安彦",
+      "familyName": "深田",
+      "email": "yfukada@example.jp"
+    },
+    {
+      "id": 2,
+      "givenName": "百世",
+      "familyName": "和田",
+      "email": "mwada@example.jp"
+    },
+    {
+      "id": 3,
+      "givenName": "麗奈",
+      "familyName": "原口",
+      "email": "rharaguc@example.jp"
+    }
+  ],
+  "exerciseMenus": [{
+      "id": 1,
+      "name": "プランク"
+    },
+    {
+      "id": 2,
+      "name": "サイドプランク"
+    },
+    {
+      "id": 3,
+      "name": "リバースプランク"
+    },
+    {
+      "id": 4,
+      "name": "チンニング"
+    }
+  ],
+  "exercises": [{
+    "id": 1,
+    "userId": 1,
+    "exerciseMenuIds": [1, 2]
+  }]
+}
